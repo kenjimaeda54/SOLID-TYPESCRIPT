@@ -2,7 +2,7 @@
 principios SOLID
 
 # Conceito SOLID com type script
--- Single Responsibility Principle
+- Single Responsibility Principle
 - Open/closed principle
 - Liskov subtitution principle
 - Interface segregration principle
