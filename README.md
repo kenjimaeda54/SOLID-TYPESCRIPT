@@ -1,14 +1,14 @@
 # SOLID-TYPESCRIPT
 principios SOLID
-
+- Exemplos de refaturação usando os princpios SOLID
+- Primeiramente inicei uma classe de carrinhos de compras,sem nenhuma refaturação. Codigo legado.
 # Conceito SOLID com type script
 - Single Responsibility Principle
 - Open/closed principle
 - Liskov subtitution principle
 - Interface segregration principle
 - Dependency inversion principle
-- Exemplos de refaturação usando os princpios SOLID
-- Primeiramente inicei uma classe de carrinhos de compras,sem nenhuma refaturação. Codigo legado.
+
 
 ### Single Responsibility Principle( SPR)
 -  Princio da responsabilidade unica, para aplicar este principio refaturei as classes com objetivo de cada uma possuir apenas uma responsabilidade.
