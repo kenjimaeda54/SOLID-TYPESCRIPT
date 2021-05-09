@@ -10,7 +10,7 @@ principios SOLID
 - Dependency inversion principle
 
 
-### Single Responsibility Principle( SPR)
+### Single Responsibility Principle( SRP)
 -  Princio da responsabilidade unica, para aplicar este principio refaturei as classes com objetivo de cada uma possuir apenas uma responsabilidade.
 - Conceito de responsabilidade e bastante amplo,porém algumas coisas são explicitas, exemplo: se sua classe precisa ser alterada cada chamada,
 posivelmente possui varias responsabilidades dentro dessa classe,então seria interesante refaturar
