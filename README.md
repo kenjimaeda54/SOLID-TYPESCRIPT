@@ -10,7 +10,7 @@ principios SOLID
 - Exemplos de refaturação usando os princpios SOLID
 - Primeiramente inicei uma classe de carrinhos de compras,sem nenhuma refaturação. Codigo legado.
 
-### Single Responsibility Pprinciple
+### Single Responsibility Principle( SPR)
 -  Princio da responsabilidade unica, para aplicar este principio refaturei as classes com objetivo de cada uma possuir apenas uma responsabilidade.
 - Conceito de responsabilidade e bastante amplo,porém algumas coisas são explicitas, exemplo: se sua classe precisa ser alterada cada chamada,
 posivelmente possui varias responsabilidades dentro dessa classe,então seria interesante refaturar
