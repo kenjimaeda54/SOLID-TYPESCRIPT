@@ -1,8 +1,8 @@
-import { order } from './srp/services/order/orderSatus';
-import { shoppingCart } from './srp/class/shoping-cart/shopinCart';
-import { checkout } from './srp/class/checkout/checkout';
-import { message } from './srp/services/message/message';
-import { product } from './srp/class/product/product';
+import { order } from './services/order/orderSatus';
+import { shoppingCart } from './class/shoping-cart/shopinCart';
+import { checkout } from './class/checkout/checkout';
+import { message } from './services/message/message';
+import { product } from './class/product/product';
 
 const shoppingList = new shoppingCart();
 const orderSatus = new order();
