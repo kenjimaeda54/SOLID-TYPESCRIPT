@@ -32,4 +32,4 @@ estarão fechadas para modificações, de quebra pratiquei o SRP
 - Principio da substittuição dde Liskov. 
 - Significado desse principio teoricamente e difcil de ser entendio, mas basicamente e as classes devem possuir relação unica com seus metodos.
 - Maneira de idenificar se esta de acordo com o principio, são verificações de tipagem,se ao decorrer de um classe precisa verificar o tipo que esta retornando ou recebendo, posivelmente não esta seguindo o principio da substiuição de Liskov.  
-- Principio esta ligado diretamente  coerencia nos metodos,classes e objetos. Exemplo:vegetarino é esperado que seja consuma vegetais é não inverso 
+- Principio esta ligado diretamente  coerencia nos metodos,classes e objetos. Exemplo:vegetarino é esperado que  coma vegetais é não inverso 
