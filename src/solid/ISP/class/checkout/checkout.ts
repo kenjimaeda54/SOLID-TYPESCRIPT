@@ -2,6 +2,7 @@ import { shoppingCart } from '../shoping-cart/shopinCart';
 import { OrderStatus } from '../interface/type-oder';
 import { message } from '../../services/message/message';
 import { order } from '../../services/order/orderSatus';
+import { Customer } from '../interface/custormer-protocol';
 
 export class checkout {
   private _orderSatus: OrderStatus = 'open';
@@ -9,6 +10,7 @@ export class checkout {
     private readonly cart: shoppingCart,
     private readonly message: message,
     private readonly oder: order,
+    private readonly customer: Customer,
   ) {}
 
   get Order(): OrderStatus {
@@ -25,5 +27,8 @@ export class checkout {
     this.message.sendMensage('Pedido realizado com sucesso');
     this.oder.saveOrder();
     this.cart.clear();
+    console.log(
+      ` Cliente: ${this.customer.getName()}  --  ${this.customer.getIND()}   `,
+    );
   }
 }
