@@ -45,5 +45,8 @@ estarão fechadas para modificações, de quebra pratiquei o SRP
 - Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
 - Classes de baixo nivel são classes que executam tarefas (os detalhes)
 - Classes de alto nivel são classes que gerenciam as classes de baixo nivel
+- As relações entre as classes e determinante para sabermos o tipo dessa classe.
+- Normalmente intidade de alo nivel são as que possuem mais abstração,exemplo as interfaces,apenas gerenciam algo,não executa nada
+- Classes de mais baixo nivel seriam aquelas que não possuem absração ,apenas executam algo
  
 
