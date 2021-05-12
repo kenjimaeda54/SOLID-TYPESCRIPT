@@ -33,3 +33,7 @@ estarão fechadas para modificações, de quebra pratiquei o SRP
 - Significado desse principio basicamente é que as classes devem possuir relação unica com suas intidades.
 - Maneira de idenificar se esta de acordo com o principio, são verificações de tipagem,se ao decorrer de um classe precisa verificar o tipo que esta retornando ou recebendo, posivelmente não esta seguindo o principio da substiuição de Liskov.  
 - Principio esta ligado diretamente  comportameno dos metodos,classes e objetos. Exemplo:vegetarino é esperado que  coma vegetais é não inverso 
+
+### Interface segregation principle(Principio da segreação de interface)
+- Os clientes não devem ser forçados a depender types,interface ou menbros abstratos que não utilizam
+- Principio nos força a criar apenas inerfaces curtas e reutilizaveis,types,interface,membros abstratos... que possuem muitos atributos devem ser refaturados 
