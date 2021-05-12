@@ -37,3 +37,13 @@ estarão fechadas para modificações, de quebra pratiquei o SRP
 ### Interface segregation principle(Principio da segreação de interface)
 - Os clientes não devem ser forçados a depender types,interface ou menbros abstratos que não utilizam
 - Principio nos força a criar apenas inerfaces curtas e reutilizaveis,types,interface,membros abstratos... que possuem muitos atributos devem ser refaturados 
+
+### Dependency Inverse Principle
+- Principio da inversão dependencia. 
+- Modulos de alto nivel não devem depender de modulos de baixo nivel.Ambos devem dependem de abstrações.
+- Dependa de abstrações não de implementações
+- Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+- Classes de baixo nivel são classes que executam tarefas (os detalhes)
+- Classes de alto nivel são classes que gerenciam as classes de baixo nivel
+ 
+
